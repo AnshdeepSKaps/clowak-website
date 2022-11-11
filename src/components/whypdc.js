@@ -14,7 +14,7 @@ export default function Whypdc() {
     return (
         <div style={mainDivStyle} className="">
 
-            <h1 className='text-center' style={{ fontWeight: "600", color: vars.darkGreen }}>WHY PDC?</h1>
+            <h1 className='text-center' style={{ fontWeight: "700", color: vars.darkGreen }}>WHY PDC?</h1>
             <p className="text-center mt-5" style={{ margin: "auto", width: "70vw", fontWeight: "600", fontSize: "1.3rem" }}>Certain people face difficulty in getting regular dental checkups. They may be elderly, unable
                 to leave their home, or they may live in a rural area, where consistent dental care is not
                 usually accessible. Clowak Innovation aims to solve these problems with the help of the

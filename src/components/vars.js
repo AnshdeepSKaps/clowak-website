@@ -5,19 +5,26 @@ const vars = {
     darkBtnStyle: {
         background: "#347571",
         color: "white",
-        width: "10vw",
-        boxShadow: "4px 4px 3px rgba(0,0,0,0.4)",
+        width: "15vw",
+        height: "8vh",
+        boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)",
         fontWeight: "500",
-        borderRadius: "0"
+        borderRadius: "0",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
     },
 
     lightBtnStyle: {
         color: "#347571",
         width: "10vw",
-        height: "6vh",
+        height: "8vh",
         fontWeight: "700",
         borderRadius: "0",
-        border: "3px solid #347571",
+        border: "4px solid #347571",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center"
     }
 }
 

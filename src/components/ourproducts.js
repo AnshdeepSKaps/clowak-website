@@ -28,7 +28,7 @@ export default function ourproducts() {
 
     return (
         <div style={mainDivStyle}>
-            <h1 className='text-center' style={{ fontWeight: "600", color: vars.darkGreen }}>Our Products</h1>
+            <h1 className='text-center' style={{ fontWeight: "700", color: vars.darkGreen }}>OUR PRODUCTS</h1>
 
             <div className='d-flex flex-row align-items-center justify-content-around'>
 

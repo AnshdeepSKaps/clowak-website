@@ -7,7 +7,7 @@ export default function Navbar() {
 
     const aStyle = {
         color: "black",
-        fontWeight: "500",
+        fontWeight: "600",
     }
 
     return (
