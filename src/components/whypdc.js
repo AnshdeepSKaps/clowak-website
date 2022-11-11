@@ -6,7 +6,7 @@ export default function Whypdc() {
 
     const mainDivStyle = {
         height: "fit-content",
-        width: "70vw",
+        width: "80vw",
         paddingTop: "10vh",
         margin: "auto"
     }

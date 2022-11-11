@@ -5,7 +5,7 @@ import aboutus from '../images/aboutus.png'
 export default function Aboutus() {
 
     const mainDivStyle = {
-        width: "70vw",
+        width: "80vw",
         margin: "auto",
         marginTop: "10vh",
         gap: "2rem"
@@ -20,7 +20,7 @@ export default function Aboutus() {
                     Our products are made in India, designed by our Indian engineers, and manufactured at our
                     industry in Vellore, Tamil Nadu.
                 </p>
-                <div style={vars.btnStyle} className="btn">More Details</div>
+                <div style={vars.darkBtnStyle} className="btn">More Details</div>
             </div>
             <img src={aboutus} alt="" />
         </div>

@@ -14,7 +14,7 @@ export default function PDC() {
 
     return (
         <div style={mainDivStyle} className="d-flex flex-row justify-content-center align-items-center">
-            <div style={{ width: "40vw" }}>
+            <div style={{ width: "55vw" }}>
                 <h1 style={{ color: vars.darkGreen, fontWeight: "700", fontSize: "3rem" }}>Portable Dentistry Unit</h1>
                 <p style={{ fontWeight: "700", fontSize: "1rem" }}>With the portable
                     dentistry clinic suitcase, it is possible to take dental care available to any individual, from the
