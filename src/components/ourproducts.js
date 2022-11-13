@@ -7,7 +7,7 @@ import product3 from "../images/ourproduct3.png"
 export default function ourproducts() {
 
     const mainDivStyle = {
-        height: "90vh",
+        height: "fit-content",
         width: "100vw",
         background: vars.lightGreen,
         margin: "auto",
