@@ -5,6 +5,7 @@ a{
 
 a:hover {
     text-decoration: underline;
+    /* text-decoration-color: black; */
     text-decoration-color: #5EC57E;
     text-decoration-thickness: 5px;
     text-underline-offset: 10px;

@@ -7,8 +7,10 @@ import Ourproducts from '../components/ourproducts'
 import Testimonials from '../components/testimonials'
 import Awards from '../components/awards'
 import Collaborations from '../components/collaborations'
+import Footer from '../components/footer'
 
 export default function home() {
+
     return (
         <div>
             <Navbar />
@@ -19,6 +21,7 @@ export default function home() {
             <Testimonials />
             <Awards />
             <Collaborations />
+            <Footer />
         </div>
     )
 }
