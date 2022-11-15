@@ -5,7 +5,7 @@ const vars = {
     darkBtnStyle: {
         background: "#347571",
         color: "white",
-        width: "15vw",
+        width: "150px",
         height: "8vh",
         boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.25)",
         fontWeight: "500",
@@ -17,7 +17,7 @@ const vars = {
 
     lightBtnStyle: {
         color: "#347571",
-        width: "10vw",
+        width: "150px",
         height: "8vh",
         fontWeight: "700",
         borderRadius: "0",

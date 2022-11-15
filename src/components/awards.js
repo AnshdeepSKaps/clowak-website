@@ -12,7 +12,8 @@ export default function awards() {
         width: "100vw",
         background: vars.lightGreen,
         margin: "auto",
-        padding: "5vh 0"
+        padding: "5vh 0",
+        flexWrap: "wrap"
     }
 
     return (

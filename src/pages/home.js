@@ -8,6 +8,7 @@ import Testimonials from '../components/testimonials'
 import Awards from '../components/awards'
 import Collaborations from '../components/collaborations'
 import Footer from '../components/footer'
+import css from "../components/media.css"
 
 export default function home() {
 

@@ -27,7 +27,7 @@ export default function footer() {
 
     return (
         <div className="d-flex flex-row align-items-center justify-content-around" style={mainDivStyle}>
-            <img src={logo} alt="" />
+            {/* <img src={logo} alt="" /> */}
             <div style={{ width: "15vw" }}>
                 <div className='text-center'>Check out our social media channels and connect with us</div>
                 <div className="mt-4 d-flex align-items-center justify-content-around">
@@ -47,7 +47,7 @@ export default function footer() {
                 <a style={{ color: "black" }} href="">Gallery</a>
             </div>
 
-            <div style={{ gap: "2rem" }} className="d-flex flex-column">
+            <div style={{ gap: "2rem", width: "30%" }} className="d-flex flex-column">
                 <div style={innerStyle}>
                     <img src={pinpoint} alt="" />
                     <div>TT 003 Technology Tower VIT University Vellore</div>
