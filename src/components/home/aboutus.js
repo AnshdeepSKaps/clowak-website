@@ -1,6 +1,6 @@
 import React from 'react'
-import vars from './vars'
-import aboutus from '../images/aboutus.png'
+import vars from '../vars'
+import aboutus from '../../images/aboutus.png'
 
 export default function Aboutus() {
 
@@ -12,8 +12,8 @@ export default function Aboutus() {
     }
 
     return (
-        <div id="about-us" className="d-flex flex-row justify-content-between align-items-center" style={mainDivStyle} >
-            <div>
+        <div id="about-us" className="d-flex flex-row justify-content-center align-items-center" style={mainDivStyle} >
+            <div className='w-50'>
                 <h1 style={{ fontWeight: "700", color: vars.darkGreen }} className="header">ABOUT US</h1>
                 <p className="mt-5" style={{ textAlign: "justify", fontWeight: "600", fontSize: "1.3rem" }}>We, at Clowak Innovations, strive to create ingenious products that focus on making the
                     lives of our customers easier, affordable, and effortlessly accessible.
@@ -22,7 +22,7 @@ export default function Aboutus() {
                 </p>
                 <div style={vars.darkBtnStyle} className="btn about-us-btn">More Details</div>
             </div>
-            <img style={{ height: "400px" }} src={aboutus} alt="" />
+            <img style={{ height: "480px", width: "500px" }} src={aboutus} alt="" />
         </div>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
-import vars from './vars'
-import pdc from '../images/pdc.png'
+import vars from '../vars'
+import pdc from '../../images/pdc.png'
 
 export default function PDC() {
 
@@ -23,7 +23,7 @@ export default function PDC() {
                     to healthcare. The PDC provides a fully operative dental workspace in minutes, allowing for a dentist to travel to normally inaccessible areas and offer services there.</p>
                 <div style={vars.darkBtnStyle} className="btn">Know More</div>
             </div>
-            <img style={{ transform: "translateY(50px)", height: "40vw" }} src={pdc} alt="" />
+            <img style={{ transform: "translateY(0px)", height: "30vw" }} src={pdc} alt="" />
         </div>
     )
 }

@@ -1,14 +1,14 @@
 import React from 'react'
+import PDC from '../components/home/pdc'
 import Navbar from '../components/navbar'
-import PDC from '../components/pdc'
-import Whypdc from '../components/whypdc'
-import Aboutus from '../components/aboutus'
-import Ourproducts from '../components/ourproducts'
-import Testimonials from '../components/testimonials'
-import Awards from '../components/awards'
-import Collaborations from '../components/collaborations'
 import Footer from '../components/footer'
-import css from "../components/media.css"
+import Awards from '../components/home/awards'
+import Whypdc from '../components/home/whypdc'
+import css from "../components/home/media.css"
+import Aboutus from '../components/home/aboutus'
+import Ourproducts from '../components/home/ourproducts'
+import Testimonials from '../components/home/testimonials'
+import Collaborations from '../components/home/collaborations'
 
 export default function home() {
 

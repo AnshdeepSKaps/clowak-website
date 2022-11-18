@@ -1,9 +1,9 @@
 import React from 'react'
-import vars from './vars'
-import vit from '../images/vit.png'
-import gdc from '../images/gdc.png'
-import stanford from '../images/stanford.png'
-import dstnidhi from '../images/dstnidhi.png'
+import vars from '../vars'
+import vit from '../../images/vit.png'
+import gdc from '../../images/gdc.png'
+import stanford from '../../images/stanford.png'
+import dstnidhi from '../../images/dstnidhi.png'
 
 export default function awards() {
 

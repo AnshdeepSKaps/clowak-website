@@ -1,8 +1,8 @@
 import React from 'react'
-import vars from './vars'
-import product1 from '../images/ourproduct1.png'
-import product2 from "../images/ourproduct2.png"
-import product3 from "../images/ourproduct3.png"
+import vars from '../vars'
+import product1 from '../../images/ourproduct1.png'
+import product2 from "../../images/ourproduct2.png"
+import product3 from "../../images/ourproduct3.png"
 
 export default function ourproducts() {
 

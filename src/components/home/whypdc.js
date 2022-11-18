@@ -1,6 +1,6 @@
 import React from 'react'
-import whypdc from '../images/whypdc.png'
-import vars from './vars'
+import whypdc from '../../images/whypdc.png'
+import vars from '../vars'
 
 export default function Whypdc() {
 
