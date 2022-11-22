@@ -6,21 +6,14 @@ import clinic3 from '../../images/aboutUs/clinic3.png'
 
 export default function Aboutus() {
 
-    const mainDivStyle = {
-        width: "80vw",
-        margin: "auto",
-        marginTop: "10vh",
-        gap: "2rem"
-    }
-
     const imgStyle = {
         width: "30vw"
     }
 
     return (
-        <div id="about-us" className="d-flex flex-column justify-content-between align-items-center" style={mainDivStyle} >
+        <div id="about-us-page" className="d-flex flex-column justify-content-between align-items-center">
             <h1 className="header text-center" style={{ fontWeight: "700", color: vars.darkGreen }}>ABOUT US</h1>
-            <p className="mt-3 text-center" style={{ textAlign: "justify", fontWeight: "600", fontSize: "1.3rem" }}>We, at Clowak Innovations, strive to create ingenious products that focus on making the
+            <p className="home-text mt-3 text-center" style={{ textAlign: "justify", fontWeight: "600", fontSize: "1.3rem" }}>We, at Clowak Innovations, strive to create ingenious products that focus on making the
                 lives of our customers easier, affordable, and effortlessly accessible.
                 Our products are made in India, designed by our Indian engineers, and manufactured at our
                 industry in Vellore, Tamil Nadu.

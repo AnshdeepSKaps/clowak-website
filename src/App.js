@@ -6,13 +6,16 @@ import {
   Route,
 } from "react-router-dom";
 import AboutUs from './pages/aboutUs';
+import ContactUs from './pages/contactUs';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/'  element={<Home />} />
-        <Route path='/aboutus'  element={<AboutUs />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/contactus' element={<ContactUs />} />
+
 
       </Routes>
     </BrowserRouter >

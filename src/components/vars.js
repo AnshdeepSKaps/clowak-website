@@ -13,7 +13,8 @@ const vars = {
         borderRadius: "0",
         display: "flex",
         alignItems: "center",
-        justifyContent: "center"
+        justifyContent: "center",
+        border: "none"
     },
 
     lightBtnStyle: {
