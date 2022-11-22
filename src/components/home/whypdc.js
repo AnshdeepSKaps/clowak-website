@@ -1,19 +1,11 @@
 import React from 'react'
-import whypdc from '../../images/whypdc.png'
 import vars from '../vars'
+import whypdc from '../../images/home/whypdc.png'
 
 export default function Whypdc() {
 
-    const mainDivStyle = {
-        height: "fit-content",
-        width: "80vw",
-        paddingTop: "10vh",
-        margin: "auto"
-    }
-
     return (
-        <div style={mainDivStyle} className="">
-
+        <div id="why-pdc" className="">
             <h1 className='text-center' style={{ fontWeight: "700", color: vars.darkGreen }}>WHY PDC?</h1>
             <p className="text-center mt-5" style={{ margin: "auto", width: "70vw", fontWeight: "600", fontSize: "1.3rem" }}>Certain people face difficulty in getting regular dental checkups. They may be elderly, unable
                 to leave their home, or they may live in a rural area, where consistent dental care is not

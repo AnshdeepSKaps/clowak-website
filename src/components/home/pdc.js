@@ -1,20 +1,15 @@
 import React from 'react'
 import vars from '../vars'
-import pdc from '../../images/pdc.png'
+import pdc from '../../images/home/pdc.png'
 
 export default function PDC() {
 
     const mainDivStyle = {
-        // border: "2px solid red",
-        background: vars.lightGreen,
-        height: "70vh",
-        width: "100vw",
-        padding: "0 20px",
-        margin: "0 auto"
+       
     }
 
     return (
-        <div style={mainDivStyle} className="d-flex flex-row justify-content-center align-items-center">
+        <div id="home-pdc" style={{ background: vars.lightGreen }} className="d-flex flex-row justify-content-center align-items-center">
             <div style={{ width: "55vw" }}>
                 <h1 style={{ color: vars.darkGreen, fontWeight: "700", fontSize: "3rem" }}>Portable Dentistry Unit</h1>
                 <p style={{ fontWeight: "700", fontSize: "1rem" }}>With the portable

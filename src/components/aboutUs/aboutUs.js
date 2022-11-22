@@ -1,6 +1,5 @@
 import React from 'react'
 import vars from '../vars'
-import aboutus from '../../images/aboutus.png'
 import clinic1 from '../../images/aboutUs/clinic1.png'
 import clinic2 from '../../images/aboutUs/clinic2.png'
 import clinic3 from '../../images/aboutUs/clinic3.png'
@@ -15,8 +14,7 @@ export default function Aboutus() {
     }
 
     const imgStyle = {
-        height: "80%",
-        // width: "100%"
+        width: "30vw"
     }
 
     return (

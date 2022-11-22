@@ -1,4 +1,5 @@
 const vars = {
+    grey: "#FAFBFB",
     lightGreen: "#ECF8E5",
     mediumGreen: "5EC57E",
     darkGreen: "#347571",

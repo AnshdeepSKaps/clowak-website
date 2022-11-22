@@ -1,34 +1,21 @@
+import vars from './vars'
 import React from 'react'
 import logo from "../images/logo.png"
-import instagram from "../images/footer/instagram.png"
-import linkedin from "../images/footer/linkedin.png"
-import youtube from "../images/footer/youtube.png"
-import pinpoint from "../images/footer/pinpoint.png"
-import phone from "../images/footer/phone.png"
-import message from "../images/footer/message.png"
-import vars from './vars'
+import css from "./home/mediaHome.css"
+import { Link } from 'react-router-dom'
+import phone from "../images/home/footer/phone.png"
+import youtube from "../images/home/footer/youtube.png"
+import message from "../images/home/footer/message.png"
+import linkedin from "../images/home/footer/linkedin.png"
+import pinpoint from "../images/home/footer/pinpoint.png"
+import instagram from "../images/home/footer/instagram.png"
 
 export default function footer() {
 
-    const mainDivStyle = {
-        height: "fit-content",
-        width: "100vw",
-        background: vars.lightGreen,
-        margin: "auto",
-        padding: "15vh 0",
-        marginTop: "15vh"
-    }
-
-    const innerStyle = {
-        display: "grid",
-        gridTemplateColumns: ".15fr 1fr",
-        gap: "1rem"
-    }
-
     return (
-        <div className="d-flex flex-row align-items-center justify-content-around" style={mainDivStyle}>
+        <div id="footer" className="d-flex flex-row align-items-center justify-content-around">
             {/* <img src={logo} alt="" /> */}
-            <div style={{ width: "15vw" }}>
+            <div id="social-channels">
                 <div className='text-center'>Check out our social media channels and connect with us</div>
                 <div className="mt-4 d-flex align-items-center justify-content-around">
                     <img src={linkedin} alt="" />
@@ -37,30 +24,31 @@ export default function footer() {
                 </div>
             </div>
 
-            <div style={{ gap: "1rem" }} className="d-flex flex-column">
-                <a style={{ color: "black" }} href="">Quick Links</a>
-                <a style={{ color: "black" }} href="">Home</a>
-                <a style={{ color: "black" }} href="">About Us</a>
-                <a style={{ color: "black" }} href="">Products</a>
-                <a style={{ color: "black" }} href="">Contact Us</a>
-                <a style={{ color: "black" }} href="">Join Us</a>
-                <a style={{ color: "black" }} href="">Gallery</a>
+            <div id="quick-links" style={{ gap: "1rem" }} className="d-flex flex-column">
+                <div style={{ fontSize: "1rem", fontWeight: "bolder", color: vars.darkGreen }}>Quick Links</div>
+                <Link className='link' style={{ color: "black" }}>Home</Link>
+                <Link className='link' style={{ color: "black" }}>About Us</Link>
+                <Link className='link' style={{ color: "black" }}>Products</Link>
+                <Link className='link' style={{ color: "black" }}>Contact Us</Link>
+                <Link className='link' style={{ color: "black" }}>Join Us</Link>
+                <Link className='link' style={{ color: "black" }}>Gallery</Link>
             </div>
 
-            <div style={{ gap: "2rem", width: "30%" }} className="d-flex flex-column">
-                <div style={innerStyle}>
-                    <img src={pinpoint} alt="" />
-                    <div>TT 003 Technology Tower VIT University Vellore</div>
+            <div id="contact-info" style={{ gap: "2rem", width: "30%" }} className="d-flex flex-column align-items-center justify-content-center">
+
+                <div className='info-card'>
+                    <img style={{ justifySelf: "center" }} src={pinpoint} alt="" />
+                    <div className='text-center'>TT 003 Technology Tower VIT University Vellore</div>
                 </div>
 
-                <div style={innerStyle}>
-                    <img src={phone} alt="" />
-                    <div> +91 8072375909</div>
+                <div className='info-card'>
+                    <img style={{ justifySelf: "center" }} src={phone} alt="" />
+                    <div className='text-center'> +91 8072375909</div>
                 </div>
 
-                <div style={innerStyle}>
-                    <img src={message} alt="" />
-                    <div>clowakinnovations@gmail.com</div>
+                <div className='info-card'>
+                    <img style={{ justifySelf: "center" }} src={message} alt="" />
+                    <div className='text-center'>clowakinnovations@gmail.com</div>
                 </div>
             </div>
         </div>
