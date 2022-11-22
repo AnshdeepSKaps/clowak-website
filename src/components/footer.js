@@ -1,7 +1,6 @@
 import vars from './vars'
 import React from 'react'
 import logo from "../images/logo.png"
-import css from "./home/mediaHome.css"
 import { Link } from 'react-router-dom'
 import phone from "../images/home/footer/phone.png"
 import youtube from "../images/home/footer/youtube.png"
@@ -17,7 +16,7 @@ export default function footer() {
             {/* <img src={logo} alt="" /> */}
             <div id="social-channels">
                 <div className='text-center'>Check out our social media channels and connect with us</div>
-                <div className="mt-4 d-flex align-items-center justify-content-around">
+                <div style={{ gap: "20px" }} className="mt-4 d-flex align-items-center justify-content-center">
                     <img src={linkedin} alt="" />
                     <img src={instagram} alt="" />
                     <img src={youtube} alt="" />
@@ -34,7 +33,7 @@ export default function footer() {
                 <Link className='link' style={{ color: "black" }}>Gallery</Link>
             </div>
 
-            <div id="contact-info" style={{ gap: "2rem", width: "30%" }} className="d-flex flex-column align-items-center justify-content-center">
+            <div id="contact-info" className="d-flex flex-column align-items-center justify-content-center">
 
                 <div className='info-card'>
                     <img style={{ justifySelf: "center" }} src={pinpoint} alt="" />
@@ -43,7 +42,7 @@ export default function footer() {
 
                 <div className='info-card'>
                     <img style={{ justifySelf: "center" }} src={phone} alt="" />
-                    <div className='text-center'> +91 8072375909</div>
+                    <div className='text-center'>+91 8072375909</div>
                 </div>
 
                 <div className='info-card'>

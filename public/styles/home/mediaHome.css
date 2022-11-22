@@ -1,0 +1,116 @@
+
+@media only screen and (max-width: 1100px) {
+    #about-us{
+        flex-direction: column !important; 
+    }
+    
+    #about-us-header{
+        text-align: center;
+    }
+    
+    #about-us-description{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .link{
+        font-size: .8rem;
+    }
+
+    #home-pdc-image{
+        height:300px;
+    }
+
+    .about-us-btn{
+        margin: 0 auto;
+    }
+
+    #our-products{
+        flex-direction: column !important;
+        padding-top: 80px;
+        gap: 100px;
+    }
+
+    #collaborations{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    body .product{
+        align-self: center !important;
+        border: 3px solid #347571;
+        padding: 20px;
+        width: fit-content !important;
+    }
+
+    .product-description{
+        width: 70vw;
+    }
+
+    /* ---------------------- Footer ---------------------- */
+
+    #footer {
+        flex-direction: column !important;
+    }
+
+    #social-channels{
+        width: 80%;
+    }
+    
+    #quick-links{
+        display: none !important;
+    }
+    
+    #contact-info{
+        flex-direction: row !important;
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .info-card{
+        width: 80vw;
+        grid-template-columns: 1fr !important; 
+        grid-template-rows: 1fr 1fr !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    #home-about-us-image{
+        width: 80vw;
+        height: 80vw;
+    }
+
+    #home-pdc{
+        text-align: center;
+        width: 100vw;
+        flex-direction: column !important;
+    }
+
+    #home-pdc-btn{
+        margin: 0 auto;
+    }
+
+    .home-text{
+        font-size: 0.8rem !important;
+    }
+
+    .header{
+        font-size: 8vw !important;
+    }
+
+    #navbar{
+        flex-direction: column !important;
+        height: fit-content !important;
+        padding: 20px 0px;
+    }
+
+    #navbar-logo{
+        display: none !important;
+    }
+
+}

@@ -9,7 +9,7 @@ export default function awards() {
 
     return (
         <div>
-            <h1 className='text-center' style={{ fontSize: "3rem", marginTop: "10vh", fontWeight: "700", color: vars.darkGreen }}>AWARDS AND RECOGNITIONS </h1>
+            <h1 className='text-center header ' style={{ fontSize: "3rem", marginTop: "10vh", fontWeight: "700", color: vars.darkGreen }}>AWARDS AND RECOGNITIONS </h1>
             <div id="awards" style={{ background: vars.lightGreen }} className="mt-5 d-flex flex-row align-items-center justify-content-around">
                 <img src={vit} alt="" />
                 <img src={stanford} alt="" />

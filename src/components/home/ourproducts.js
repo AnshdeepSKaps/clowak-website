@@ -12,7 +12,7 @@ export default function ourproducts() {
 
     return (
         <div id="home-our-products" style={{ background: vars.lightGreen }}>
-            <h1 className='text-center' style={{ fontWeight: "700", color: vars.darkGreen }}>OUR PRODUCTS</h1>
+            <h1 className='text-center header' style={{ fontWeight: "700", color: vars.darkGreen }}>OUR PRODUCTS</h1>
 
             <div id="our-products" className='d-flex flex-row align-items-center justify-content-around'>
 

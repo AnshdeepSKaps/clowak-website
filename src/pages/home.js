@@ -4,9 +4,7 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Awards from '../components/home/awards'
 import Whypdc from '../components/home/whypdc'
-import css1 from "../components/home/home.css"
 import Aboutus from '../components/home/aboutus'
-import css2 from "../components/home/mediaHome.css"
 import Ourproducts from '../components/home/ourproducts'
 import Testimonials from '../components/home/testimonials'
 import Collaborations from '../components/home/collaborations'
