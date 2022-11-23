@@ -98,6 +98,10 @@
 
 @media only screen and (max-width: 600px) {
 
+    body{
+        padding-top: 50px;
+    }
+
     #home-pdc-description {
         width: 90vw;
     }
@@ -108,11 +112,11 @@
     }
 
     #home-pdc{
-        margin-top: 50px;
         text-align: center;
         width: 100vw;
         flex-direction: column !important;
         padding-top: 30px;
+        height: fit-content;
     }
 
     #home-pdc-btn{

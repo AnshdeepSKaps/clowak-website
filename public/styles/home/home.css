@@ -6,8 +6,8 @@
 
 #burger-nav{
     position: fixed;
-    height: 50px;
     top: 0;
+    height: 50px;
     width: 100vw;
 }
 
