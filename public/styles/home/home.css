@@ -4,6 +4,13 @@
     gap: 30px
 }
 
+#burger-nav{
+    position: fixed;
+    height: 50px;
+    top: 0;
+    width: 100vw;
+}
+
 .link {
     text-decoration: none;
     /* font-size: 2vw; */
@@ -112,7 +119,6 @@
     margin: auto;
     margin-top: 10vh;
     gap: 2rem;
-    background: #FAFBFB;
     padding: 70px 5vw;
 }
 
@@ -125,6 +131,7 @@
     height: 100%;
     opacity: 0.15;
     background-image: url('../../logo.png');
+    background-color: #e8e8e8;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 500px;

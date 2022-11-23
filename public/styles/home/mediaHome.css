@@ -22,6 +22,10 @@
         height:500px;
     }
 
+    #home-pdc-description{
+        width:50vw;
+    }
+
     #why-pdc {
         width: 90vw;
     }
@@ -90,13 +94,13 @@
         grid-template-columns: 1fr !important; 
         grid-template-rows: 1fr 1fr !important;
     }
-
-
 }
 
 @media only screen and (max-width: 600px) {
 
-
+    #home-pdc-description {
+        width: 90vw;
+    }
 
     #home-about-us-image{
         width: 80vw;
@@ -104,6 +108,7 @@
     }
 
     #home-pdc{
+        margin-top: 50px;
         text-align: center;
         width: 100vw;
         flex-direction: column !important;
@@ -120,9 +125,16 @@
     }
 
     #navbar{
+        padding: 20px 0px;
         flex-direction: column !important;
         height: fit-content !important;
-        padding: 20px 0px;
+        border-top: 3px solid #347571 ;
+        border-bottom: 3px solid #347571;
+    }
+
+    #nav{
+        position: fixed;
+        top: 50px;
     }
 
     #navbar-logo{
