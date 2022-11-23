@@ -1,0 +1,10 @@
+
+#gallery-box{
+
+}
+
+.gallery-row{
+    width: 100vw;
+    height: fit-content;
+    padding: 15px 10px;
+}

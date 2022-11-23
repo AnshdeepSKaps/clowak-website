@@ -3,7 +3,7 @@
     height: 30vh;
 }
 
-#contact-form{
+#contact-form, #join-form{
     width: 100vw;
     margin-top: 10vh;
     display: flex; 
