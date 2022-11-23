@@ -50,6 +50,6 @@ export default function footer() {
                     <div className='text-center'>clowakinnovations@gmail.com</div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
