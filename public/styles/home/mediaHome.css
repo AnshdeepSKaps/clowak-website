@@ -116,7 +116,7 @@
     }
 
     .header{
-        font-size: 8vw;
+        font-size: 8vw !important;
     }
 
     #navbar{
