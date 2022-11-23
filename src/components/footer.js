@@ -33,7 +33,7 @@ export default function footer() {
                 <Link className='link' style={{ color: "black" }}>Gallery</Link>
             </div>
 
-            <div id="contact-info" className="d-flex flex-column align-items-center justify-content-center">
+            <div id="contact-info" className="d-flex flex-column align-items-center justify-content-around">
 
                 <div className='info-card'>
                     <img style={{ justifySelf: "center" }} src={pinpoint} alt="" />

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 800px) {
+
+    .form-input{
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    #contact-us{
+        border-top: 3px solid #347571;
+        border-bottom: 3px solid #347571;
+    }
+}

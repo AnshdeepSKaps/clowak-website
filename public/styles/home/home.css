@@ -27,6 +27,12 @@
     height: 600px
 }
 
+.home-text{
+    width: 60vw;
+    font-weight: 600;
+    font-size: 1.3rem
+}
+
 #why-pdc{
     height: fit-content;
     width: 80vw;
@@ -39,6 +45,10 @@
     margin: auto;
     margin-top: 10vh;
     gap: 2rem;
+}
+
+#about-us-description{
+    width: 50vw;
 }
 
 #home-about-us-image{
@@ -118,6 +128,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 500px;
+    z-index: -1;
 }
 
 #contact-info{
@@ -127,9 +138,13 @@
 
 .info-card {
     display: grid;
-    grid-template-columns: .15fr 1fr;
+    grid-template-columns: 30px 300px;
 }
 
 #social-channels {
     width: 15vw;
+}
+
+.hidden{
+    display: none;
 }
