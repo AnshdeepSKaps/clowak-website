@@ -1,9 +1,9 @@
 import React from 'react'
 import vars from './vars'
-import { useRef, useState, useEffect } from 'react'
 import logo from '../images/logo.png'
 import clowak from '../images/clowak.png'
 import { NavLink } from 'react-router-dom'
+import {useState, useEffect } from 'react'
 
 export default function Navbar() {
 

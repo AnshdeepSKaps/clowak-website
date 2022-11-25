@@ -1,7 +1,7 @@
 import vars from './vars'
 import React from 'react'
 import logo from "../images/logo.png"
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import phone from "../images/home/footer/phone.png"
 import youtube from "../images/home/footer/youtube.png"
 import message from "../images/home/footer/message.png"
@@ -10,6 +10,11 @@ import pinpoint from "../images/home/footer/pinpoint.png"
 import instagram from "../images/home/footer/instagram.png"
 
 export default function footer() {
+
+    const aStyle = {
+        color: "black",
+        // fontWeight: "600",
+    }
 
     return (
         <div id="footer" className="d-flex flex-row align-items-center justify-content-around">
@@ -25,12 +30,12 @@ export default function footer() {
 
             <div id="quick-links" style={{ gap: "1rem" }} className="d-flex flex-column">
                 <div style={{ fontSize: "1rem", fontWeight: "bolder", color: vars.darkGreen }}>Quick Links</div>
-                <Link className='link' style={{ color: "black" }}>Home</Link>
-                <Link className='link' style={{ color: "black" }}>About Us</Link>
-                <Link className='link' style={{ color: "black" }}>Products</Link>
-                <Link className='link' style={{ color: "black" }}>Contact Us</Link>
-                <Link className='link' style={{ color: "black" }}>Join Us</Link>
-                <Link className='link' style={{ color: "black" }}>Gallery</Link>
+                <NavLink className="link" to="/" style={aStyle}>Home</NavLink>
+                <NavLink className="link" to="/aboutus" style={aStyle}>About Us</NavLink>
+                <NavLink className="link" to="/products" style={aStyle}>Products</NavLink>
+                <NavLink className="link" to="/gallery" style={aStyle}>Gallery</NavLink>
+                <NavLink className="link" to="/contactus" style={aStyle}>Contact Us</NavLink>
+                <NavLink className="link" to="/joinus" style={aStyle}>Join Us</NavLink>
             </div>
 
             <div id="contact-info" className="d-flex flex-column align-items-center justify-content-around">
