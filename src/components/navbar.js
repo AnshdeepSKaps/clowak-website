@@ -53,7 +53,7 @@ export default function Navbar() {
                 </div>
             }
 
-            <nav id="nav" style={{ background: vars.lightGreen }}>
+            <nav id="nav">
                 <div id="navbar" className="d-flex flex-row justify-content-center align-items-center">
                     <img id="navbar-logo" style={{ height: "70px" }} src={logo} alt="CLOWAK LOGO" />
                     <NavLink className={linkClass} to="/" style={aStyle}>HOME</NavLink>
