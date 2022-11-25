@@ -1,10 +1,11 @@
 #navbar{
     width: 100vw;
     height: 12vh;
-    gap: 30px
+    gap: 30px;
 }
 
 #burger-nav{
+    z-index: 2;
     position: fixed;
     top: 0;
     height: 50px;
@@ -49,6 +50,11 @@
     width: 80vw;
     padding-top: 10vh;
     margin: auto;
+}
+
+#why-pdc-image{
+    max-width: 100%;
+    /* width: 100%; */
 }
 
 #about-us{

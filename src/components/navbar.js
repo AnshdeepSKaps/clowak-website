@@ -36,7 +36,7 @@ export default function Navbar() {
     return (
         <div>
             {burger &&
-                <div style={{ background: vars.grey }} id="burger-nav" className="d-flex flex-row justify-content-center align-items-center">
+                <div style={{ background: vars.lightGreen }} id="burger-nav" className="d-flex flex-row justify-content-center align-items-center">
                     <img src={clowak} style={{ height: "20px" }} alt="" />
                     <div onClick={handleClick} id="burger" className="d-flex flex-column" style={{ gap: "3px", border: `2px solid ${vars.darkGreen}`, padding: "3px", borderRadius: "5px" }}>
                         <div style={{ background: vars.darkGreen, width: "20px", height: "2px", borderRadius: "2px" }}></div>

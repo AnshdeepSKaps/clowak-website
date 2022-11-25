@@ -14,7 +14,7 @@ export default function Whypdc() {
                 as it provides a fully operative dental workspace within a small, portable suitcase that can be carried around with ease.
             </p>
             <div className='d-flex justify-content-center align-items-center'>
-                <img id="why-pdc-image" className='mt-5' style={{ width: "80vw" }} src={whypdc} alt="" />
+                <img id="why-pdc-image" className='mt-5' src={whypdc} alt="" />
             </div>
         </div>
     )

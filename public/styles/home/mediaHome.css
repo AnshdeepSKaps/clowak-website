@@ -30,6 +30,8 @@
         width: 90vw;
     }
 
+    
+
     .home-text {
         width: 80vw;
         font-size: 0.8rem;
@@ -134,10 +136,11 @@
         border-top: 3px solid #347571 ;
         border-bottom: 3px solid #347571;
     }
-
+    
     #nav{
         position: fixed;
         top: 50px;
+        z-index: 2;
     }
 
     #navbar-logo{
