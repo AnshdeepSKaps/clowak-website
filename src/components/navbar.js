@@ -31,22 +31,29 @@ export default function Navbar() {
 
     const handleClick = () => {
         document.getElementById("nav").classList.toggle("hidden")
+        document.getElementsByClassName("burger")[0].classList.toggle("rotate1")
+        document.getElementsByClassName("burger")[1].classList.toggle("rotate2")
     }
 
     return (
         <div>
             {burger &&
                 <div style={{ background: vars.lightGreen }} id="burger-nav" className="d-flex flex-row justify-content-center align-items-center">
+                    <div onClick={handleClick} className="burger d-flex flex-column align-items-center justify-content-center">
+                        <div className="burger-line"></div>
+                        <div className="burger-line"></div>
+                        <div className="burger-line"></div>
+                    </div>
                     <img src={clowak} style={{ height: "20px" }} alt="" />
-                    <div onClick={handleClick} id="burger" className="d-flex flex-column" style={{ gap: "3px", border: `2px solid ${vars.darkGreen}`, padding: "3px", borderRadius: "5px" }}>
-                        <div style={{ background: vars.darkGreen, width: "20px", height: "2px", borderRadius: "2px" }}></div>
-                        <div style={{ background: vars.darkGreen, width: "20px", height: "2px", borderRadius: "2px" }}></div>
-                        <div style={{ background: vars.darkGreen, width: "20px", height: "2px", borderRadius: "2px" }}></div>
+                    <div onClick={handleClick} className="burger d-flex flex-column align-items-center justify-content-center">
+                        <div className="burger-line"></div>
+                        <div className="burger-line"></div>
+                        <div className="burger-line"></div>
                     </div>
                 </div>
             }
 
-            <nav id="nav" style={{ padding: "0", background: vars.lightGreen }}>
+            <nav id="nav" style={{ background: vars.lightGreen }}>
                 <div id="navbar" className="d-flex flex-row justify-content-center align-items-center">
                     <img id="navbar-logo" style={{ height: "70px" }} src={logo} alt="CLOWAK LOGO" />
                     <NavLink className={linkClass} to="/" style={aStyle}>HOME</NavLink>
