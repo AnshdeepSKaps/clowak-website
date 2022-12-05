@@ -5,15 +5,14 @@
 }
 
 #navbar{
-    width: 100vw;
     height: 12vh;
     gap: 30px;
 }
 
 #nav{
+    width: 100vw;
     position: relative;
     max-height: 312px;
-    /* visibility: visible; */
     transition: all 0.5s;
     overflow: hidden;
     background-color: var(--lightGreen);
@@ -32,7 +31,6 @@
 }
 
 .burger{
-    /* border: 2px solid var(--darkGreen); */
     gap: 2px;
     height: 23px;
     width: 23px;
@@ -174,7 +172,7 @@
     margin: auto;
     margin-top: 10vh;
     gap: 2rem;
-    padding: 30px 5vw;
+    padding: 20px 5vw;
 }
 
 #footer::before{
