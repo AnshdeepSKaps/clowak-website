@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar'
 import ContactUs from '../components/contactUs/contactUs'
-import ContactForm from '../components/contactUs/contactForm'
+import ContactForm from '../components/contactUs/ContactForm'
 import Footer from '../components/footer'
 
 export default function contactUs() {
