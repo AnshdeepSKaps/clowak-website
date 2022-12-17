@@ -1,7 +1,20 @@
-import React from 'react'
-import vars from '../vars'
+import vars from '../vars';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-export default function contactForm() {
+export default function ContactForm() {
+
+    const form = useRef(0);
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_1w5tufo', 'template_9lq2ddj', form.current, 'e3VB3a5w9cJZ1Qv8S')
+            .then((result) => {
+                alert("Email succesfully sent");;
+            }, (error) => { });
+        e.target.reset();
+    };
 
     const labelStyle = {
         color: vars.darkGreen,
@@ -10,26 +23,31 @@ export default function contactForm() {
     }
 
     return (
-        <form id="contact-form" className="">
+        <form id="contact-form" className="" ref={form} onSubmit={sendEmail}>
 
             <div className="d-flex flex-column form-child">
                 <label style={labelStyle} htmlFor="">Your Name:</label>
-                <input className="form-input" type="text" />
+                <input className="form-input" type="text" name="user_name" />
             </div>
 
             <div className="d-flex flex-column form-child">
                 <label style={labelStyle} htmlFor="">Phone No.:</label>
-                <input className="form-input" type="text" />
+                <input className="form-input" type="text" name="phone_no" />
+            </div>
+
+            <div className="d-flex flex-column form-child">
+                <label style={labelStyle} htmlFor="">Your Email</label>
+                <input className="form-input" type="text" name="user_email" />
             </div>
 
             <div className="d-flex flex-column form-child">
                 <label style={labelStyle} htmlFor="">Subject:</label>
-                <input className="form-input" type="text" />
+                <input className="form-input" type="text" name="subject" />
             </div>
 
             <div className="d-flex flex-column form-child">
                 <label style={labelStyle} htmlFor="">Message:</label>
-                <textarea className="form-input" type="text" style={{ textAlign: "start", height: "300px" }} />
+                <textarea className="form-input" type="text" style={{ textAlign: "start", height: "300px" }} name="message" />
             </div>
 
             <button style={vars.darkBtnStyle} className="mt-3">Submit</button>
